@@ -9,7 +9,6 @@ import Level1 from './level-1'
 export default class Game extends Phaser.Game {
 
   constructor() {
-
     super(800, 600, Phaser.AUTO, 'content', null)
 
     console.log('created game')
@@ -20,7 +19,6 @@ export default class Game extends Phaser.Game {
     this.state.add('Level1', Level1, false)
 
     this.state.start('Boot')
-
   }
 
 }
